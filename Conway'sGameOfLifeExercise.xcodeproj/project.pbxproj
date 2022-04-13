@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9B975AC2806ED7F007AC679 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B975AB2806ED7F007AC679 /* AppDelegate.swift */; };
+		E9B975AE2806ED7F007AC679 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B975AD2806ED7F007AC679 /* SceneDelegate.swift */; };
+		E9B975B02806ED7F007AC679 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B975AF2806ED7F007AC679 /* ViewController.swift */; };
+		E9B975B32806ED7F007AC679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B975B12806ED7F007AC679 /* Main.storyboard */; };
+		E9B975B52806ED7F007AC679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9B975B42806ED7F007AC679 /* Assets.xcassets */; };
+		E9B975B82806ED7F007AC679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B975B62806ED7F007AC679 /* LaunchScreen.storyboard */; };
+		E9B975C32806ED7F007AC679 /* Conway_sGameOfLifeExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B975C22806ED7F007AC679 /* Conway_sGameOfLifeExerciseTests.swift */; };
+		E9B975CD2806ED7F007AC679 /* Conway_sGameOfLifeExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B975CC2806ED7F007AC679 /* Conway_sGameOfLifeExerciseUITests.swift */; };
+		E9B975CF2806ED7F007AC679 /* Conway_sGameOfLifeExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B975CE2806ED7F007AC679 /* Conway_sGameOfLifeExerciseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9B975BF2806ED7F007AC679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9B975A02806ED7F007AC679 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9B975A72806ED7F007AC679;
+			remoteInfo = "Conway'sGameOfLifeExercise";
+		};
+		E9B975C92806ED7F007AC679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9B975A02806ED7F007AC679 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9B975A72806ED7F007AC679;
+			remoteInfo = "Conway'sGameOfLifeExercise";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9B975A82806ED7F007AC679 /* Conway'sGameOfLifeExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conway'sGameOfLifeExercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B975AB2806ED7F007AC679 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9B975AD2806ED7F007AC679 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E9B975AF2806ED7F007AC679 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9B975B22806ED7F007AC679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9B975B42806ED7F007AC679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9B975B72806ED7F007AC679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9B975B92806ED7F007AC679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9B975BE2806ED7F007AC679 /* Conway'sGameOfLifeExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conway'sGameOfLifeExerciseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B975C22806ED7F007AC679 /* Conway_sGameOfLifeExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conway_sGameOfLifeExerciseTests.swift; sourceTree = "<group>"; };
+		E9B975C82806ED7F007AC679 /* Conway'sGameOfLifeExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conway'sGameOfLifeExerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B975CC2806ED7F007AC679 /* Conway_sGameOfLifeExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conway_sGameOfLifeExerciseUITests.swift; sourceTree = "<group>"; };
+		E9B975CE2806ED7F007AC679 /* Conway_sGameOfLifeExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conway_sGameOfLifeExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9B975A52806ED7F007AC679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B975BB2806ED7F007AC679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B975C52806ED7F007AC679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9B9759F2806ED7F007AC679 = {
+			isa = PBXGroup;
+			children = (
+				E9B975AA2806ED7F007AC679 /* Conway'sGameOfLifeExercise */,
+				E9B975C12806ED7F007AC679 /* Conway'sGameOfLifeExerciseTests */,
+				E9B975CB2806ED7F007AC679 /* Conway'sGameOfLifeExerciseUITests */,
+				E9B975A92806ED7F007AC679 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9B975A92806ED7F007AC679 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9B975A82806ED7F007AC679 /* Conway'sGameOfLifeExercise.app */,
+				E9B975BE2806ED7F007AC679 /* Conway'sGameOfLifeExerciseTests.xctest */,
+				E9B975C82806ED7F007AC679 /* Conway'sGameOfLifeExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9B975AA2806ED7F007AC679 /* Conway'sGameOfLifeExercise */ = {
+			isa = PBXGroup;
+			children = (
+				E9B975AB2806ED7F007AC679 /* AppDelegate.swift */,
+				E9B975AD2806ED7F007AC679 /* SceneDelegate.swift */,
+				E9B975AF2806ED7F007AC679 /* ViewController.swift */,
+				E9B975B12806ED7F007AC679 /* Main.storyboard */,
+				E9B975B42806ED7F007AC679 /* Assets.xcassets */,
+				E9B975B62806ED7F007AC679 /* LaunchScreen.storyboard */,
+				E9B975B92806ED7F007AC679 /* Info.plist */,
+			);
+			path = "Conway'sGameOfLifeExercise";
+			sourceTree = "<group>";
+		};
+		E9B975C12806ED7F007AC679 /* Conway'sGameOfLifeExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9B975C22806ED7F007AC679 /* Conway_sGameOfLifeExerciseTests.swift */,
+			);
+			path = "Conway'sGameOfLifeExerciseTests";
+			sourceTree = "<group>";
+		};
+		E9B975CB2806ED7F007AC679 /* Conway'sGameOfLifeExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9B975CC2806ED7F007AC679 /* Conway_sGameOfLifeExerciseUITests.swift */,
+				E9B975CE2806ED7F007AC679 /* Conway_sGameOfLifeExerciseUITestsLaunchTests.swift */,
+			);
+			path = "Conway'sGameOfLifeExerciseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9B975A72806ED7F007AC679 /* Conway'sGameOfLifeExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B975D22806ED7F007AC679 /* Build configuration list for PBXNativeTarget "Conway'sGameOfLifeExercise" */;
+			buildPhases = (
+				E9B975A42806ED7F007AC679 /* Sources */,
+				E9B975A52806ED7F007AC679 /* Frameworks */,
+				E9B975A62806ED7F007AC679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Conway'sGameOfLifeExercise";
+			productName = "Conway'sGameOfLifeExercise";
+			productReference = E9B975A82806ED7F007AC679 /* Conway'sGameOfLifeExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9B975BD2806ED7F007AC679 /* Conway'sGameOfLifeExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B975D52806ED7F007AC679 /* Build configuration list for PBXNativeTarget "Conway'sGameOfLifeExerciseTests" */;
+			buildPhases = (
+				E9B975BA2806ED7F007AC679 /* Sources */,
+				E9B975BB2806ED7F007AC679 /* Frameworks */,
+				E9B975BC2806ED7F007AC679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9B975C02806ED7F007AC679 /* PBXTargetDependency */,
+			);
+			name = "Conway'sGameOfLifeExerciseTests";
+			productName = "Conway'sGameOfLifeExerciseTests";
+			productReference = E9B975BE2806ED7F007AC679 /* Conway'sGameOfLifeExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9B975C72806ED7F007AC679 /* Conway'sGameOfLifeExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B975D82806ED7F007AC679 /* Build configuration list for PBXNativeTarget "Conway'sGameOfLifeExerciseUITests" */;
+			buildPhases = (
+				E9B975C42806ED7F007AC679 /* Sources */,
+				E9B975C52806ED7F007AC679 /* Frameworks */,
+				E9B975C62806ED7F007AC679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9B975CA2806ED7F007AC679 /* PBXTargetDependency */,
+			);
+			name = "Conway'sGameOfLifeExerciseUITests";
+			productName = "Conway'sGameOfLifeExerciseUITests";
+			productReference = E9B975C82806ED7F007AC679 /* Conway'sGameOfLifeExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9B975A02806ED7F007AC679 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E9B975A72806ED7F007AC679 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					E9B975BD2806ED7F007AC679 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = E9B975A72806ED7F007AC679;
+					};
+					E9B975C72806ED7F007AC679 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = E9B975A72806ED7F007AC679;
+					};
+				};
+			};
+			buildConfigurationList = E9B975A32806ED7F007AC679 /* Build configuration list for PBXProject "Conway'sGameOfLifeExercise" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9B9759F2806ED7F007AC679;
+			productRefGroup = E9B975A92806ED7F007AC679 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9B975A72806ED7F007AC679 /* Conway'sGameOfLifeExercise */,
+				E9B975BD2806ED7F007AC679 /* Conway'sGameOfLifeExerciseTests */,
+				E9B975C72806ED7F007AC679 /* Conway'sGameOfLifeExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9B975A62806ED7F007AC679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B975B82806ED7F007AC679 /* LaunchScreen.storyboard in Resources */,
+				E9B975B52806ED7F007AC679 /* Assets.xcassets in Resources */,
+				E9B975B32806ED7F007AC679 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B975BC2806ED7F007AC679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B975C62806ED7F007AC679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9B975A42806ED7F007AC679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B975B02806ED7F007AC679 /* ViewController.swift in Sources */,
+				E9B975AC2806ED7F007AC679 /* AppDelegate.swift in Sources */,
+				E9B975AE2806ED7F007AC679 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B975BA2806ED7F007AC679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B975C32806ED7F007AC679 /* Conway_sGameOfLifeExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B975C42806ED7F007AC679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B975CF2806ED7F007AC679 /* Conway_sGameOfLifeExerciseUITestsLaunchTests.swift in Sources */,
+				E9B975CD2806ED7F007AC679 /* Conway_sGameOfLifeExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9B975C02806ED7F007AC679 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9B975A72806ED7F007AC679 /* Conway'sGameOfLifeExercise */;
+			targetProxy = E9B975BF2806ED7F007AC679 /* PBXContainerItemProxy */;
+		};
+		E9B975CA2806ED7F007AC679 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9B975A72806ED7F007AC679 /* Conway'sGameOfLifeExercise */;
+			targetProxy = E9B975C92806ED7F007AC679 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9B975B12806ED7F007AC679 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B975B22806ED7F007AC679 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9B975B62806ED7F007AC679 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B975B72806ED7F007AC679 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9B975D02806ED7F007AC679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9B975D12806ED7F007AC679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9B975D32806ED7F007AC679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Conway'sGameOfLifeExercise/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VSmilenov.Conway-sGameOfLifeExercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9B975D42806ED7F007AC679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Conway'sGameOfLifeExercise/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VSmilenov.Conway-sGameOfLifeExercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9B975D62806ED7F007AC679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VSmilenov.Conway-sGameOfLifeExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conway'sGameOfLifeExercise.app/Conway'sGameOfLifeExercise";
+			};
+			name = Debug;
+		};
+		E9B975D72806ED7F007AC679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VSmilenov.Conway-sGameOfLifeExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conway'sGameOfLifeExercise.app/Conway'sGameOfLifeExercise";
+			};
+			name = Release;
+		};
+		E9B975D92806ED7F007AC679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VSmilenov.Conway-sGameOfLifeExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Conway'sGameOfLifeExercise";
+			};
+			name = Debug;
+		};
+		E9B975DA2806ED7F007AC679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VSmilenov.Conway-sGameOfLifeExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Conway'sGameOfLifeExercise";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9B975A32806ED7F007AC679 /* Build configuration list for PBXProject "Conway'sGameOfLifeExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B975D02806ED7F007AC679 /* Debug */,
+				E9B975D12806ED7F007AC679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B975D22806ED7F007AC679 /* Build configuration list for PBXNativeTarget "Conway'sGameOfLifeExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B975D32806ED7F007AC679 /* Debug */,
+				E9B975D42806ED7F007AC679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B975D52806ED7F007AC679 /* Build configuration list for PBXNativeTarget "Conway'sGameOfLifeExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B975D62806ED7F007AC679 /* Debug */,
+				E9B975D72806ED7F007AC679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B975D82806ED7F007AC679 /* Build configuration list for PBXNativeTarget "Conway'sGameOfLifeExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B975D92806ED7F007AC679 /* Debug */,
+				E9B975DA2806ED7F007AC679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9B975A02806ED7F007AC679 /* Project object */;
+}
