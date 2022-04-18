@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E94D3D59280734280028122D /* ConwayGameCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94D3D58280734280028122D /* ConwayGameCellCollectionViewCell.swift */; };
 		E9B975AC2806ED7F007AC679 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B975AB2806ED7F007AC679 /* AppDelegate.swift */; };
 		E9B975AE2806ED7F007AC679 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B975AD2806ED7F007AC679 /* SceneDelegate.swift */; };
-		E9B975B02806ED7F007AC679 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B975AF2806ED7F007AC679 /* ViewController.swift */; };
+		E9B975B02806ED7F007AC679 /* ConwayGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B975AF2806ED7F007AC679 /* ConwayGameViewController.swift */; };
 		E9B975B32806ED7F007AC679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B975B12806ED7F007AC679 /* Main.storyboard */; };
 		E9B975B52806ED7F007AC679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9B975B42806ED7F007AC679 /* Assets.xcassets */; };
 		E9B975B82806ED7F007AC679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B975B62806ED7F007AC679 /* LaunchScreen.storyboard */; };
@@ -36,10 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E94D3D58280734280028122D /* ConwayGameCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConwayGameCellCollectionViewCell.swift; sourceTree = "<group>"; };
 		E9B975A82806ED7F007AC679 /* Conway'sGameOfLifeExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conway'sGameOfLifeExercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B975AB2806ED7F007AC679 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9B975AD2806ED7F007AC679 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E9B975AF2806ED7F007AC679 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9B975AF2806ED7F007AC679 /* ConwayGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConwayGameViewController.swift; sourceTree = "<group>"; };
 		E9B975B22806ED7F007AC679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9B975B42806ED7F007AC679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9B975B72806ED7F007AC679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +103,8 @@
 			children = (
 				E9B975AB2806ED7F007AC679 /* AppDelegate.swift */,
 				E9B975AD2806ED7F007AC679 /* SceneDelegate.swift */,
-				E9B975AF2806ED7F007AC679 /* ViewController.swift */,
+				E9B975AF2806ED7F007AC679 /* ConwayGameViewController.swift */,
+				E94D3D58280734280028122D /* ConwayGameCellCollectionViewCell.swift */,
 				E9B975B12806ED7F007AC679 /* Main.storyboard */,
 				E9B975B42806ED7F007AC679 /* Assets.xcassets */,
 				E9B975B62806ED7F007AC679 /* LaunchScreen.storyboard */,
@@ -258,9 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9B975B02806ED7F007AC679 /* ViewController.swift in Sources */,
+				E9B975B02806ED7F007AC679 /* ConwayGameViewController.swift in Sources */,
 				E9B975AC2806ED7F007AC679 /* AppDelegate.swift in Sources */,
 				E9B975AE2806ED7F007AC679 /* SceneDelegate.swift in Sources */,
+				E94D3D59280734280028122D /* ConwayGameCellCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

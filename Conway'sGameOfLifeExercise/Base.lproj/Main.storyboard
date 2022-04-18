@@ -1,24 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5yZ-DA-Jtb">
+    <device id="ipad12_9" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Conway Game View Controller-->
+        <scene sceneID="gKo-8y-EsN">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <collectionViewController id="5yZ-DA-Jtb" customClass="ConwayGameViewController" customModule="Conway_sGameOfLifeExercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="rKR-46-UhI">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="3" minimumInteritemSpacing="3" id="MZ5-63-hpE">
+                            <size key="itemSize" width="20" height="20"/>
+                            <size key="estimatedItemSize" width="20" height="20"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <view key="backgroundView" contentMode="scaleToFill" id="ulo-kc-Ib1">
+                            <rect key="frame" x="0.0" y="-20" width="1024" height="1366"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="UQQ-7Z-DaY">
+                                    <rect key="frame" x="120" y="1170" width="784" height="127"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOs-ux-pT8">
+                                            <rect key="frame" x="0.0" y="0.0" width="367" height="127"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="filled" title="Clear">
+                                                <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                            </buttonConfiguration>
+                                            <connections>
+                                                <action selector="clearCells:" destination="5yZ-DA-Jtb" eventType="touchUpInside" id="oa4-h4-Ap6"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yz-rJ-aVd">
+                                            <rect key="frame" x="417" y="0.0" width="367" height="127"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="filled" title="Next Itteration">
+                                                <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                            </buttonConfiguration>
+                                            <connections>
+                                                <action selector="nextItteration:" destination="5yZ-DA-Jtb" eventType="touchUpInside" id="dlm-Mr-iyZ"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="784" id="FjR-t0-PlH"/>
+                                        <constraint firstAttribute="height" constant="127" id="JV6-1l-04H"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="UQQ-7Z-DaY" secondAttribute="bottom" constant="69" id="ECe-xP-rCW"/>
+                                <constraint firstItem="UQQ-7Z-DaY" firstAttribute="centerX" secondItem="ulo-kc-Ib1" secondAttribute="centerX" id="L1F-zb-cbm"/>
+                                <constraint firstItem="UQQ-7Z-DaY" firstAttribute="leading" secondItem="ulo-kc-Ib1" secondAttribute="leading" constant="120" id="XIP-D4-2Rc"/>
+                                <constraint firstAttribute="trailing" secondItem="UQQ-7Z-DaY" secondAttribute="trailing" constant="120" id="o2D-2s-0ti"/>
+                            </constraints>
+                        </view>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="conwayCell" id="rxf-pc-O5I" customClass="ConwayGameCellCollectionViewCell" customModule="Conway_sGameOfLifeExercise" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="7kq-DI-0Ok">
+                                    <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </collectionViewCellContentView>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <size key="customSize" width="20" height="20"/>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="5yZ-DA-Jtb" id="jf7-lm-2W2"/>
+                            <outlet property="delegate" destination="5yZ-DA-Jtb" id="Att-RP-h5S"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dYi-gr-qCl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="195.703125" y="-31.18594436310395"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
